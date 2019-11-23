@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string tableRow = "___";
+  string tableColumn = "|";
+  string X = "X";
+  string O = "O";
+  int table();
+  int square[9] = [0,1,2,3,4,5,6,7,8];
+
+int main()
+{
+  
+}
+
+//Displays the table
+int table()
+{
+  int end;
+
+  cout << tableColumn << endl;
+
+  cout << tableRow << endl;
+
+  return end;
+}
